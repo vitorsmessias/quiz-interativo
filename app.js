@@ -4,7 +4,7 @@ const divButton = document.querySelector('.div-btn')
 
 const correctAnswers = ['A', 'B', 'B', 'B'] //criando array para armazenar as alternativas corretas
 
-const scoreFeedback = score => {
+const scoreFeedback = (score) => {
     divButton.insertAdjacentElement('afterend', feedbackParagraph)
 
     const successFeedback = () => {
